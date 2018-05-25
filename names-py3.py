@@ -8,6 +8,7 @@ import piexif
 from PIL import Image
 import datetime
 import argparse
+
 doesNotHaveAnyDateTime, needsChangeTime, onlyFileNameDoesNotHaveDateTime, dateTimesDiffer, noDateForPicasa, nonJpgFiles, fileCount = {}, {}, {}, {}, {}, {}, 0
 zeroTimeOffset = datetime.timedelta(seconds = 0)
 
